@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "eslint src",
+    "start": "webpack-dev-server",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "css": "cp ./node_modules/@kbase/base-css/css/tachyons.min.css ./docs/tachyons.min.css"
+  },
+  "keywords": [],
+  "author": "KBase Team",
+  "license": "MIT",
+  "dependencies": {
+    "@kbase/base-css": "0.0.2",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-mobx": "^2.0.0",
+    "eslint": "^5.15.1",
+    "eslint-plugin-react": "^7.12.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
